@@ -70,7 +70,7 @@ export class App extends Component {
     }
     console.log(contacts);
   }
-
+  
   componentDidUpdate(prevProps, prevState) {
     const nextContacts = this.state.contacts;
     const prevContacts = prevState.contact;
